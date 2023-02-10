@@ -4,7 +4,7 @@ import configViewEngine from './config/viewEngine';
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 2601;
+const port = process.env.PORT || 2619;
 
 configViewEngine(app);
 
